@@ -1,0 +1,9 @@
+@import 'variable';
+@import 'mixins';
+@import 'animation';
+@import 'globals';
+@import 'systems';
+
+//------------------- components -------------------//
+@import '../../components/navbar/navbar';
+@import '../../components/navbar/dropdown/dropdown';

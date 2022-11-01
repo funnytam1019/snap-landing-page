@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  padding-top: 1.875rem;
+  padding-left: 2.5rem;
+  padding-right: 1.875rem;
+  justify-content: space-between;
+
+  .logo {
+    margin-right: 3.75rem;
+  }
+
+  li {
+    margin-left: 1.875rem;
+    margin-bottom: 0;
+    font-size: var(--font-sm);
+    color: var(--mediumGray);
+    list-style-type: none;
+  }
+
+  a {
+    color: var(--mediumGray);
+  }
+}
